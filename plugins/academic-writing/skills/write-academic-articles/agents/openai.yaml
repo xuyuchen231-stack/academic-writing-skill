@@ -1,0 +1,13 @@
+interface:
+  display_name: 通用学术文章写作
+  short_description: 适用于各领域的文章与综述写作，保留清晰自然措辞和严谨证据习惯
+  default_prompt: 使用 $write-academic-articles，按照我的措辞和排版习惯撰写或修改这篇文章，并核对文献、数字和论证。
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
